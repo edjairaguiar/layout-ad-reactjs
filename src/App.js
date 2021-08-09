@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import ItemInfo from "./componentes/ItemInfo";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <ItemInfo
+        cost="720.000"
+        complexCost="450"
+        iptucost="2.148"
+        description="Apartamento especial, 80, 65m², iluminado, 3 quartos, sendo 1 com suíte, sala..."
+        address="Rua Livramento, Santana"
+        totalspace="81"
+        room="3"
+        garage="2"
+        bathroom="2"
+      />
+    </>
   );
 }
-
-export default App;

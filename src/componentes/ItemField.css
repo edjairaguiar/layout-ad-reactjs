@@ -1,0 +1,103 @@
+.title h1 {
+  margin-bottom: -25px;
+}
+
+.heart-button {
+  position: relative;
+  top: -15px;
+  left: 455px;
+  height: 15%;
+  width: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.heart-button-t:hover {
+  opacity: 100%;
+}
+
+.description {
+  margin-bottom: 25px;
+}
+
+.description h3 {
+  margin-bottom: 15px;
+  color: #292f36;
+  font-weight: lighter;
+}
+
+.description p {
+  font-size: 14px;
+  color: darkslategrey;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.address-icons p {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: darkslategrey;
+}
+
+.address-icons ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 16px;
+  margin-right: 20px;
+  color: darkslategrey;
+}
+
+.address-icons ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.address-icons ul li img {
+  margin-right: 10px;
+}
+
+.contact-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-phone {
+  color: orangered;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 20px;
+  align-items: center;
+  transition: all 1s;
+}
+
+.btn-phone:hover {
+  color: darkorange;
+  font-weight: bolder;
+}
+
+.btn-msg {
+  width: 130px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: orangered;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn-msg:hover {
+  background-color: darkorange;
+}
